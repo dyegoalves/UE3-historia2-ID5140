@@ -8,86 +8,53 @@
   },
   "properties": {
     "adaptGameResolutionAtRuntime": false,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
     "folderProject": false,
     "orientation": "landscape",
     "packageName": "com.example.gamename",
+    "pixelsRounding": false,
     "projectUuid": "7a524c5c-3843-4a86-b9c0-1046f34c0887",
     "scaleMode": "nearest",
     "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "name": "historia2",
+    "description": "",
     "author": "Dyego Alves",
-    "windowWidth": 600,
-    "windowHeight": 300,
-    "latestCompilationDirectory": "D:\\SCORMS\\SID5140-PROD-DID462\\AnimacoesProntas\\historia2",
+    "windowWidth": 1280,
+    "windowHeight": 1024,
+    "latestCompilationDirectory": "C:\\Users\\dyego.alves\\Desktop\\flash-html5\\exports\\sid5140-ue3-historia2-medidas-app",
     "maxFPS": 60,
     "minFPS": 20,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
-      "showGDevelopSplash": false
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": false,
+      "showProgressBar": true
     },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
     "extensionProperties": [],
-    "extensions": [
-      {
-        "name": "BuiltinObject"
-      },
-      {
-        "name": "BuiltinAudio"
-      },
-      {
-        "name": "BuiltinVariables"
-      },
-      {
-        "name": "BuiltinTime"
-      },
-      {
-        "name": "BuiltinMouse"
-      },
-      {
-        "name": "BuiltinKeyboard"
-      },
-      {
-        "name": "BuiltinJoystick"
-      },
-      {
-        "name": "BuiltinCamera"
-      },
-      {
-        "name": "BuiltinWindow"
-      },
-      {
-        "name": "BuiltinFile"
-      },
-      {
-        "name": "BuiltinNetwork"
-      },
-      {
-        "name": "BuiltinScene"
-      },
-      {
-        "name": "BuiltinAdvanced"
-      },
-      {
-        "name": "Sprite"
-      },
-      {
-        "name": "BuiltinCommonInstructions"
-      },
-      {
-        "name": "BuiltinCommonConversions"
-      },
-      {
-        "name": "BuiltinStringInstructions"
-      },
-      {
-        "name": "BuiltinMathematicalTools"
-      },
-      {
-        "name": "BuiltinExternalLayouts"
-      }
-    ],
     "platforms": [
       {
         "name": "GDevelop JS platform"
@@ -208,9 +175,6 @@
       "disableInputWhenNotFocused": true,
       "mangledName": "historia2",
       "name": "historia2",
-      "oglFOV": 90,
-      "oglZFar": 500,
-      "oglZNear": 1,
       "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
@@ -218,17 +182,16 @@
       "v": 255,
       "uiSettings": {
         "grid": false,
-        "gridB": 255,
-        "gridG": 180,
+        "gridType": "rectangular",
+        "gridWidth": 32,
         "gridHeight": 32,
         "gridOffsetX": 0,
         "gridOffsetY": 0,
-        "gridR": 158,
-        "gridType": "rectangular",
-        "gridWidth": 32,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
         "snap": true,
-        "windowMask": false,
-        "zoomFactor": 0.7599999999999998
+        "zoomFactor": 0.602548749087781,
+        "windowMask": false
       },
       "objectsGroups": [],
       "variables": [
@@ -246,15 +209,15 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 11,
           "layer": "",
-          "locked": false,
           "name": "linhaTempo",
           "persistentUuid": "81e3a1a1-1135-44eb-bc5f-0675694fe625",
-          "width": 0,
-          "x": 44,
-          "y": 77,
+          "width": 878,
+          "x": 153,
+          "y": 190,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -262,15 +225,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 50,
+          "customSize": true,
+          "depth": 1,
+          "height": 90,
           "layer": "",
-          "locked": false,
           "name": "globo1790",
           "persistentUuid": "5bf25524-c378-419f-8939-dc9afaf14317",
-          "width": 40,
-          "x": 27,
-          "y": 14,
+          "width": 100,
+          "x": 104,
+          "y": 66,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -278,15 +241,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
           "layer": "",
-          "locked": false,
           "name": "text1790",
           "persistentUuid": "32babed9-e978-4b63-9692-6c0d9d6c083a",
-          "width": 0,
-          "x": 31,
-          "y": 62,
+          "width": 80,
+          "x": 129,
+          "y": 159,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -294,15 +257,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 50,
+          "customSize": true,
+          "depth": 1,
+          "height": 90,
           "layer": "",
-          "locked": false,
           "name": "france1826",
           "persistentUuid": "99e5734f-c4d6-4109-9e5b-e51a69ae1098",
-          "width": 40,
-          "x": 193,
-          "y": 18,
+          "width": 100,
+          "x": 396,
+          "y": 64,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -310,15 +273,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
           "layer": "",
-          "locked": false,
           "name": "text1826",
           "persistentUuid": "49a415fd-ed07-4018-90a1-90899901c1d3",
-          "width": 0,
-          "x": 204,
-          "y": 62,
+          "width": 80,
+          "x": 420,
+          "y": 159,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -326,15 +289,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 90,
           "layer": "",
-          "locked": false,
           "name": "brasil1889",
           "persistentUuid": "09f0c616-874f-4629-9c8a-13ec7abeaf1f",
-          "width": 0,
-          "x": 361,
-          "y": 19,
+          "width": 100,
+          "x": 688,
+          "y": 60,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -342,15 +305,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
           "layer": "",
-          "locked": false,
           "name": "text1889",
           "persistentUuid": "d6d7f2d6-1aa7-415c-bb13-9f0209d0a4ce",
-          "width": 0,
-          "x": 374,
-          "y": 62,
+          "width": 80,
+          "x": 713,
+          "y": 159,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -358,15 +321,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 90,
           "layer": "",
-          "locked": false,
           "name": "ideia1983",
           "persistentUuid": "dcf5b5e3-12c2-4589-b104-97ebc137b0f2",
-          "width": 0,
-          "x": 536,
-          "y": 9,
+          "width": 100,
+          "x": 972,
+          "y": 62,
           "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
@@ -374,15 +337,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 28,
           "layer": "",
-          "locked": false,
           "name": "text1983",
           "persistentUuid": "c768c14a-012c-47fd-b0d7-4cc7045e4f62",
-          "width": 0,
-          "x": 547,
-          "y": 62,
+          "width": 80,
+          "x": 997,
+          "y": 159,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -390,31 +353,56 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 701,
           "layer": "",
-          "locked": false,
           "name": "boxviewTexto",
           "persistentUuid": "c60fa088-db94-4481-813b-af8ca52442fc",
-          "width": 0,
-          "x": 28,
-          "y": 102,
+          "width": 1212,
+          "x": 38,
+          "y": 240,
           "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "txt1",
+              "type": "string",
+              "value": "\"O metro corresponde a décima milionésima parte do meridiano terrestre\""
+            },
+            {
+              "folded": true,
+              "name": "txt2",
+              "type": "string",
+              "value": "\"Metro é a distância entre dois extremos da barra de platina depositada nos Arquivos da França e apoiada em dois pontos de mínima flexão na temperatura de zero grau Celsius\". \n\nFoi chamado de metro dos arquivos. No Brasil  o sistema métrico foi implantado por lei imperial em 1862. "
+            },
+            {
+              "folded": true,
+              "name": "txt3",
+              "type": "string",
+              "value": "A segunda definição aconteceu pois o material poderia se desgastar e a barra não era rígida o suficiente. \n\n\"Metro é a distância entre os eixos de dois traços principais marcados na superfície neutra do padrão internacional depositado no Bureau International des Poids et Mesures (BIPM) na temperatura de zero grau Celsius e sob uma pressão atmosférica de 760mmHg e apoiado sobre seus pontos mínimos de flexão\".\n\nEm 1889 o Brasil recebeu uma barra padrão da França que se encontra no Instituto de Pesquisas Tecnológicas (IPT)."
+            },
+            {
+              "folded": true,
+              "name": "txt4",
+              "type": "string",
+              "value": "INMETRO\n\"Metro é o comprimento do trajeto percorrido pela luz no vácuo durante o intervalo de tempo de 1/299.792.458 do segundo\"."
+            }
+          ]
         },
         {
           "angle": 0,
           "customSize": true,
-          "height": 23,
+          "depth": 1,
+          "height": 636,
           "layer": "",
-          "locked": false,
           "name": "globoText",
           "persistentUuid": "3d21eb6c-006e-48c3-96f0-087107492837",
-          "width": 520,
-          "x": 45,
-          "y": 115,
+          "width": 1162,
+          "x": 62,
+          "y": 284,
           "zOrder": 11,
           "numberProperties": [],
           "stringProperties": [],
@@ -433,15 +421,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 36,
           "layer": "",
-          "locked": false,
           "name": "indicador",
           "persistentUuid": "34a8b91b-c334-4791-a195-e5424ca67661",
-          "width": 0,
-          "x": 45,
-          "y": 85,
+          "width": 22,
+          "x": 156,
+          "y": 206,
           "zOrder": 12,
           "numberProperties": [],
           "stringProperties": [],
@@ -472,63 +460,18 @@
               "value": "560"
             }
           ]
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 81,
-          "layer": "",
-          "locked": false,
-          "name": "franceText",
-          "persistentUuid": "1b9e0581-75c5-4297-87b9-d61fbdc6bd3f",
-          "width": 520,
-          "x": 620,
-          "y": -16,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 135,
-          "layer": "",
-          "locked": false,
-          "name": "brasilText",
-          "persistentUuid": "5ebcbc83-1abf-47d8-9729-55ccbea6b71a",
-          "width": 520,
-          "x": 620,
-          "y": 84,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 55,
-          "layer": "",
-          "locked": false,
-          "name": "ideiaText",
-          "persistentUuid": "d77711bc-74cf-4902-a90d-ec7099965e71",
-          "width": 520,
-          "x": 619,
-          "y": 239,
-          "zOrder": 16,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
         }
       ],
       "objects": [
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "linhaTempo",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -563,11 +506,14 @@
           ]
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "globo1790",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -631,6 +577,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "bold": true,
           "italic": false,
           "name": "text1790",
@@ -639,10 +586,12 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "1790",
           "font": "",
-          "characterSize": 12,
+          "textAlignment": "",
+          "characterSize": 20,
           "color": {
             "b": 204,
             "g": 102,
@@ -650,11 +599,14 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "france1826",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -718,6 +670,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "bold": true,
           "italic": false,
           "name": "text1826",
@@ -726,10 +679,12 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "1826",
           "font": "",
-          "characterSize": 12,
+          "textAlignment": "",
+          "characterSize": 20,
           "color": {
             "b": 204,
             "g": 102,
@@ -737,11 +692,14 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "brasil1889",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -805,6 +763,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "bold": true,
           "italic": false,
           "name": "text1889",
@@ -813,10 +772,12 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "1889",
           "font": "",
-          "characterSize": 12,
+          "textAlignment": "",
+          "characterSize": 20,
           "color": {
             "b": 204,
             "g": 102,
@@ -824,11 +785,14 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "ideia1983",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -892,6 +856,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "bold": true,
           "italic": false,
           "name": "text1983",
@@ -900,10 +865,12 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "1983",
           "font": "",
-          "characterSize": 12,
+          "textAlignment": "",
+          "characterSize": 20,
           "color": {
             "b": 204,
             "g": 102,
@@ -911,11 +878,39 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "boxviewTexto",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "txt1",
+              "type": "string",
+              "value": "asda"
+            },
+            {
+              "folded": true,
+              "name": "txt2",
+              "type": "string",
+              "value": "asda"
+            },
+            {
+              "folded": true,
+              "name": "txt3",
+              "type": "string",
+              "value": "asasa"
+            },
+            {
+              "folded": true,
+              "name": "txt4",
+              "type": "string",
+              "value": "adad"
+            }
+          ],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -950,6 +945,7 @@
           ]
         },
         {
+          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "globoText",
@@ -958,10 +954,12 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "\"O metro corresponde a décima milionésima parte do meridiano terrestre\"",
           "font": "",
-          "characterSize": 14,
+          "textAlignment": "",
+          "characterSize": 40,
           "color": {
             "b": 51,
             "g": 51,
@@ -969,6 +967,7 @@
           }
         },
         {
+          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "franceText",
@@ -977,10 +976,12 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "\"Metro é a distância entre dois extremos da barra de platina depositada nos Arquivos da França e apoiada em dois pontos de mínima flexão na temperatura de zero grau Celsius\". Foi chamado de metro dos arquivos. \nNo Brasil  o sistema métrico foi implantado por lei imperial em 1862. ",
           "font": "",
-          "characterSize": 14,
+          "textAlignment": "",
+          "characterSize": 40,
           "color": {
             "b": 51,
             "g": 51,
@@ -988,6 +989,7 @@
           }
         },
         {
+          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "brasilText",
@@ -996,10 +998,12 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "A segunda definição aconteceu pois o material poderia se desgastar e a barra não era rígida o suficiente. \"Metro é a distância entre os eixos de dois traços principais marcados na superfície neutra do padrão internacional depositado no Bureau International des Poids et Mesures (BIPM) na temperatura de zero grau Celsius e sob uma pressão atmosférica de 760mmHg e apoiado sobre seus pontos mínimos de flexão.\nEm 1889 o Brasil recebeu uma barra padrão da França que se encontra no Instituto de Pesquisas Tecnológicas (IPT).",
           "font": "",
-          "characterSize": 14,
+          "textAlignment": "",
+          "characterSize": 40,
           "color": {
             "b": 51,
             "g": 51,
@@ -1007,6 +1011,7 @@
           }
         },
         {
+          "assetStoreId": "",
           "bold": false,
           "italic": false,
           "name": "ideiaText",
@@ -1015,10 +1020,12 @@
           "type": "TextObject::Text",
           "underlined": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "string": "INMETRO\n\"Metro é o comprimento do trajeto percorrido pela luz no vácuo durante o intervalo de tempo de 1/299.792.458 do segundo\".",
           "font": "",
-          "characterSize": 14,
+          "textAlignment": "",
+          "characterSize": 40,
           "color": {
             "b": 51,
             "g": 51,
@@ -1026,11 +1033,14 @@
           }
         },
         {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
           "name": "indicador",
           "tags": "",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
+          "effects": [],
           "behaviors": [],
           "animations": [
             {
@@ -1067,64 +1077,61 @@
       ],
       "events": [
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "DepartScene"
               },
               "parameters": [
                 ""
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [
             {
               "type": {
-                "inverted": false,
                 "value": "ChangeAnimation"
               },
               "parameters": [
                 "globo1790",
                 "=",
                 "1"
-              ],
-              "subInstructions": []
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "boxviewTexto",
+                "txt1",
+                "=",
+                "boxviewTexto.VariableString(txt1)"
+              ]
             }
-          ],
-          "events": []
+          ]
         },
         {
-          "disabled": false,
-          "folded": false,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
               "type": {
-                "inverted": false,
                 "value": "MouseButtonPressed"
               },
               "parameters": [
                 "",
                 "Left"
-              ],
-              "subInstructions": []
+              ]
             }
           ],
           "actions": [],
           "events": [
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -1132,148 +1139,43 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "globo1790",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "france1826",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "brasil1889",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "ideia1983",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "globoText",
                     "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy))"
-                  ],
-                  "subInstructions": []
+                    "boxviewTexto.VariableString(txt1)"
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "franceText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "brasilText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "ideiaText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
+                    "value": "MettreX"
                   },
                   "parameters": [
                     "indicador",
                     "=",
-                    "ToNumber(indicador.VariableString(pox1))",
-                    "=",
-                    "ToNumber(indicador.VariableString(poy))"
-                  ],
-                  "subInstructions": []
+                    "text1790.X()+25"
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -1281,148 +1183,43 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "france1826",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "globo1790",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "brasil1889",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "ideia1983",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "franceText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "globoText",
                     "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
+                    "boxviewTexto.VariableString(txt2)"
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "brasilText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "ideiaText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
+                    "value": "MettreX"
                   },
                   "parameters": [
                     "indicador",
                     "=",
-                    "ToNumber(indicador.VariableString(pox2))",
-                    "=",
-                    "ToNumber(indicador.VariableString(poy))"
-                  ],
-                  "subInstructions": []
+                    "text1826.X()+25"
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -1430,148 +1227,43 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "brasil1889",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "globo1790",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "france1826",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "ideia1983",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "brasilText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "globoText",
                     "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
+                    "boxviewTexto.VariableString(txt3)"
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "franceText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "ideiaText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
+                    "value": "MettreX"
                   },
                   "parameters": [
                     "indicador",
                     "=",
-                    "ToNumber(indicador.VariableString(pox3))",
-                    "=",
-                    "ToNumber(indicador.VariableString(poy))"
-                  ],
-                  "subInstructions": []
+                    "text1889.X()+20"
+                  ]
                 }
-              ],
-              "events": []
+              ]
             },
             {
-              "disabled": false,
-              "folded": false,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
                   "type": {
-                    "inverted": false,
                     "value": "SourisSurObjet"
                   },
                   "parameters": [
@@ -1579,139 +1271,37 @@
                     "",
                     "",
                     ""
-                  ],
-                  "subInstructions": []
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
                     "value": "BuiltinCommonInstructions::Once"
                   },
-                  "parameters": [],
-                  "subInstructions": []
+                  "parameters": []
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "ideia1983",
-                    "=",
-                    "1"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "globo1790",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "france1826",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "ChangeAnimation"
-                  },
-                  "parameters": [
-                    "brasil1889",
-                    "=",
-                    "0"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "ideiaText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy))"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
+                    "value": "TextObject::String"
                   },
                   "parameters": [
                     "globoText",
                     "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
+                    "boxviewTexto.VariableString(txt4)"
+                  ]
                 },
                 {
                   "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "franceText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
-                  },
-                  "parameters": [
-                    "brasilText",
-                    "=",
-                    "ToNumber(globoText.VariableString(pox))",
-                    "=",
-                    "ToNumber(globoText.VariableString(poy)) + 800"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "MettreXY"
+                    "value": "MettreX"
                   },
                   "parameters": [
                     "indicador",
                     "=",
-                    "ToNumber(indicador.VariableString(pox4))",
-                    "=",
-                    "ToNumber(indicador.VariableString(poy))"
-                  ],
-                  "subInstructions": []
+                    "text1983.X()+30"
+                  ]
                 }
-              ],
-              "events": []
+              ]
             }
           ]
         }
@@ -1721,9 +1311,14 @@
           "ambientLightColorB": 36,
           "ambientLightColorG": 7379992,
           "ambientLightColorR": 32,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 0.1,
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
+          "isLocked": false,
           "name": "",
+          "renderingType": "",
           "visibility": true,
           "cameras": [
             {
@@ -1740,7 +1335,32 @@
           "effects": []
         }
       ],
-      "behaviorsSharedData": []
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
